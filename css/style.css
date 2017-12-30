@@ -23,7 +23,15 @@ body {
 }
 
 img {
-    /*border-radius: 50%;*/
+    /*border-radius: 25px;*/
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+#wordcloud {
+    border-radius: 25px;
 }
 
 #link:hover {

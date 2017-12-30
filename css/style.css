@@ -23,7 +23,11 @@ body {
 }
 
 img {
-    /*border-radius: 25px;*/
+    border-radius: 25px;
+}
+
+#icon {
+    border-radius: 0px;
 }
 
 #profile {
@@ -31,7 +35,7 @@ img {
 }
 
 #wordcloud {
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 #link:hover {
@@ -929,7 +933,7 @@ input[type="text"] {
 }
 
 .navbar a:hover {
-    background-color: red;
+    background-color: darkred;
 }
 
 .active {

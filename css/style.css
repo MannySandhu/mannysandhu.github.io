@@ -26,12 +26,18 @@ img {
     /*border-radius: 50%;*/
 }
 
+#link:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted
+}
+
 a {
   color: #F03861;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 a:hover {
   text-decoration: none;
   color: #F03861;

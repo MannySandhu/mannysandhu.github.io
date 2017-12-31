@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: Courier New, Geneva, sans-serif;
   line-height: 1.8;
@@ -150,12 +145,16 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
   padding-bottom: 5em;
 }
 
+#navbar-nav {
+    padding-top: 9em;
+    background-image: url("/images/pixel-wall.png")
+}
+
 header {
-  padding-top: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 header .fh5co-navbar-brand {
-  /*padding-bottom: 3em;*/
+  padding-top: 3em;
 }
 header .fh5co-navbar-brand .fh5co-logo {
   position: relative;
@@ -746,20 +745,8 @@ header #fh5co-main-nav > ul li:first-child {
   color: #fff;
   font-size: 30px;
 }
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-2 {
-  background: rgba(248, 125, 9, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-3 {
+.fh5co-grid-work .work-holder .inner-overlay.inner-overlay {
   background: rgba(23, 231, 164, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(249, 197, 53, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-4 {
-  background: rgba(81, 218, 207, 0.9);
-}
-.fh5co-grid-work .work-holder .inner-overlay.inner-overlay-5 {
-  background: rgba(255, 118, 118, 0.9);
 }
 .fh5co-grid-work .desc h3 {
   font-size: 20px;
@@ -939,6 +926,3 @@ input[type="text"] {
 .active {
     background: red;
 }
-
-
-/*# sourceMappingURL=style.css.map */

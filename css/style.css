@@ -6,11 +6,16 @@
   font-style: normal;
 }
 
+#intro {
+   
+}
+
 body {
   font-family: Courier New, Geneva, sans-serif;
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
+    background-image: url("/images/blue-color-scheme-material-design.jpg")
 }
 
 .col-md-12 {
@@ -146,6 +151,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 700px; 
     
 }
+#description_header-home {
+    align-content: center;
+    display: inline-block;
+    width: 700px;
+    background-color: aliceblue
+    padding: 20px;
+}
 
 #description {
     align-content: center;
@@ -159,6 +171,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 600px;
     float: right;
 }
+
+#page-title {
+    color: black;
+}
+#home-text {
+    color: black;
+}
+
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
 #fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,

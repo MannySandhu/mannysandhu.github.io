@@ -139,6 +139,19 @@ h1, h2, h3, h4, h5, h6 {
   background: #4ddbff;
 }
 
+#description {
+    align-content: center;
+    display: inline-block
+}
+#courses {
+    width: 600px;
+    float: left;
+}
+#university {
+    width: 600px;
+    float: right;
+}
+
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
 #fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,
 #fh5co-work-section {

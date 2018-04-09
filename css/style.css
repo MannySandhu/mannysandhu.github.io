@@ -15,7 +15,6 @@ body {
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
-    background-image: url("/images/blue-color-scheme-material-design.jpg")
 }
 
 .col-md-12 {
@@ -41,7 +40,7 @@ img {
 
 #link:hover {
     text-decoration: underline;
-    text-decoration-style: dotted
+    text-decoration-style: dashed
 }
 
 a {
@@ -151,17 +150,16 @@ h1, h2, h3, h4, h5, h6 {
     width: 700px; 
     
 }
-#description_header-home {
+#description_header_home {
     align-content: center;
     display: inline-block;
     width: 700px;
-    background-color: aliceblue
     padding: 20px;
 }
-
 #description {
     align-content: center;
     display: inline-block;
+    border
 }
 #courses {
     width: 600px;
@@ -188,7 +186,7 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 
 #navbar-nav {
     padding-top: 9em;
-    background-image: url("/images/pixel-wall.png")
+    background-image: url("/images/blue-color-scheme-material-design.jpg")
 }
 
 header {

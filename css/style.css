@@ -30,7 +30,8 @@ img {
 }
 
 #wordcloud {
-    border-radius: 50px;
+    border-radius: 10px;
+    width: 600px auto;
 }
 
 #link:hover {
@@ -139,9 +140,16 @@ h1, h2, h3, h4, h5, h6 {
   background: #4ddbff;
 }
 
+#description_header {
+    align-content: center;
+    display: inline-block;
+    width: 700px; 
+    
+}
+
 #description {
     align-content: center;
-    display: inline-block
+    display: inline-block;
 }
 #courses {
     width: 600px;

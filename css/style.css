@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: Courier New, Geneva, sans-serif;
+  font-family: sans-serif;
   line-height: 1.8;
   font-size: 20px;
   font-weight: 300;
@@ -59,7 +59,8 @@ a:focus, a:active {
 }
 
 p1 {
-    font-size: 15px
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 p, span {
@@ -67,7 +68,7 @@ p, span {
   font-size: 20px;
   color: #727272;
   font-weight: 300;
-  font-family: Courier New, Geneva, sans-serif;
+  font-family: sans-serif;
 }
 
 span {
@@ -77,7 +78,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: Courier New, Geneva, sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }

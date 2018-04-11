@@ -786,6 +786,7 @@ header #fh5co-main-nav > ul li:first-child {
 }
 .fh5co-grid-work .work-holder .inner-overlay.inner-overlay {
   background: rgba(23, 231, 164, 0.9);
+    border-radius: 25px;
 }
 .fh5co-grid-work .desc h3 {
   font-size: 20px;
@@ -799,7 +800,7 @@ header #fh5co-main-nav > ul li:first-child {
   font-size: 16px;
 }
 .fh5co-grid-work:hover .inner-overlay, .fh5co-grid-work:focus .inner-overlay {
-  opacity: 1;
+  opacity: 0.2;
 }
 
 .about {

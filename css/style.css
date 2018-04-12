@@ -187,7 +187,9 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 
 #navbar-nav {
     padding-top: 9em;
-    background-image: url("/images/blue-color-scheme-material-design.jpg")
+    background-image: url("/images/site_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {

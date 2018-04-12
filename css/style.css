@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 #description_header {
     align-content: center;
     display: inline-block;
-    width: 700px; 
+    width: 700px;
     
 }
 #description_header_home {
@@ -185,6 +185,10 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
   padding-bottom: 5em;
 }
 
+#footer {
+    background-color: antiquewhite;
+}
+
 #navbar-nav {
     padding-top: 9em;
     background-image: url("/images/site_banner.png");
@@ -194,6 +198,7 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 
 header {
   padding-bottom: 1em;
+    background-color: antiquewhite;
 }
 header .fh5co-navbar-brand {
   padding-top: 4em;
@@ -964,9 +969,17 @@ input[type="text"] {
 }
 
 .navbar a:hover {
-    background-color: darkred;
+    background-image: url("/images/blue-color-scheme-material-design-button-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .active {
-    background: red;
+    background-image: url("/images/blue-color-scheme-material-design-button.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#copyright {
+    color: black;
 }

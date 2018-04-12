@@ -972,12 +972,17 @@ input[type="text"] {
     background-image: url("/images/blue-color-scheme-material-design-button-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border: solid;
+    border-color: orangered;
+    
 }
 
 .active {
     background-image: url("/images/blue-color-scheme-material-design-button.jpg");
     background-position: center;
     background-size: cover;
+    border: solid;
+    border-color: orangered;
 }
 
 #copyright {

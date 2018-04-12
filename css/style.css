@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-title {
-    color: black;
+    color: snow;
 }
 #home-text {
     color: black;
@@ -194,9 +194,12 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 
 header {
   padding-bottom: 1em;
+    background-image: url("/gifs/background%20GIF.gif");
+
 }
 header .fh5co-navbar-brand {
   padding-top: 4em;
+    padding-bottom: 2em;
 }
 header .fh5co-navbar-brand .fh5co-logo {
   position: relative;

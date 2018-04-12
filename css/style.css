@@ -10,6 +10,11 @@
    
 }
 
+#button {
+    height: inherit;
+    width: 150px;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1.8;
@@ -149,6 +154,7 @@ h1, h2, h3, h4, h5, h6 {
     align-content: center;
     display: inline-block;
     width: 700px;
+    bor
     
 }
 #description_header_home {
@@ -966,14 +972,16 @@ input[type="text"] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border: solid;
+    background-image: url("/images/blue-color-scheme-material-design-button.jpg");
+    border-color: antiquewhite;
 }
 
 .navbar a:hover {
     background-image: url("/images/blue-color-scheme-material-design-button-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid;
-    border-color: orangered;
+    border-color: antiquewhite;
     
 }
 
@@ -982,7 +990,6 @@ input[type="text"] {
     background-position: center;
     background-size: cover;
     border: solid;
-    border-color: orangered;
 }
 
 #copyright {

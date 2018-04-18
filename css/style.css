@@ -980,14 +980,11 @@ input[type="text"] {
     text-decoration: none;
     border: solid;
     background-image: url("/images/blue-color-scheme-material-design-button.jpg");
-    border-color: 4EB1BA;
+    border-color: #4EB1BA;
 }
 
 .navbar a:hover {
-    background-image: url("/images/blue-color-scheme-material-design-button-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-color: 222930;
+    border-color: #4EB1BA;
     
 }
 
@@ -995,7 +992,6 @@ input[type="text"] {
     background-image: url("/images/blue-color-scheme-material-design-button.jpg");
     background-position: center;
     background-size: cover;
-    border: solid;
 }
 
 #copyright {

@@ -989,7 +989,7 @@ input[type="text"] {
 }
 
 .active {
-    background-image: url("/images/blue-color-scheme-material-design-button.jpg");
+    background-color: red;
     background-position: center;
     background-size: cover;
 }

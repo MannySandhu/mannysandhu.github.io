@@ -209,11 +209,12 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 }
 
 header {
+    padding-top: 1em;
   padding-bottom: 1em;
     background-color: #222930;
 }
 header .fh5co-navbar-brand {
-  padding-top: 4em;
+  padding-top: 2em;
     padding-bottom: 2em;
 }
 header .fh5co-navbar-brand .fh5co-logo {
@@ -981,11 +982,11 @@ input[type="text"] {
 }
 
 .navbar a:hover {
-    border-color: #4EB1BA;
+    background-color: #4EB1BA;
 }
 
 .active {
-    border-color: red;
+    background-color: #4EB1BA;
 }
 
 #copyright {

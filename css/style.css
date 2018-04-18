@@ -982,11 +982,14 @@ input[type="text"] {
 }
 
 .navbar a:hover {
+    /*
     background-color: #4EB1BA;
+    */
+    background-image: url("/gifs/background%20GIF.gif");
 }
 
 .active {
-    background-color: #4EB1BA;
+    background-color: #4EB1BA;-->
 }
 
 #copyright {

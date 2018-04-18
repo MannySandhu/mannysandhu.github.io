@@ -53,7 +53,7 @@ img {
 }
 
 a {
-  color: #F03861;
+  color: #4EB1BA;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #page-title {
-    color: black;
+    color: #4EB1BA;
 }
 #home-text {
     color: black;
@@ -195,7 +195,7 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 }
 
 #footer {
-    background-color: antiquewhite;
+    background-color: #222930;
 }
 
 #navbar-nav {
@@ -207,7 +207,7 @@ header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-sect
 
 header {
   padding-bottom: 1em;
-    background-color: antiquewhite;
+    background-color: #222930;
 }
 header .fh5co-navbar-brand {
   padding-top: 4em;
@@ -227,7 +227,7 @@ header .fh5co-navbar-brand .fh5co-logo:after {
   right: -14px;
   width: 12px;
   height: 12px;
-  background: #4ddbff;
+  background: red;
   content: '';
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
@@ -977,14 +977,14 @@ input[type="text"] {
     text-decoration: none;
     border: solid;
     background-image: url("/images/blue-color-scheme-material-design-button.jpg");
-    border-color: antiquewhite;
+    border-color: 4EB1BA;
 }
 
 .navbar a:hover {
     background-image: url("/images/blue-color-scheme-material-design-button-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-color: antiquewhite;
+    border-color: 222930;
     
 }
 
@@ -996,5 +996,5 @@ input[type="text"] {
 }
 
 #copyright {
-    color: black;
+    color: #E9E9E9;
 }

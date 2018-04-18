@@ -187,6 +187,9 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
 }
 
+#note{
+    font-style: italic;
+}
 
 header, #fh5co-intro-section, #fh5co-services-section, #fh5co-featured-work-section,
 #fh5co-common-section, #fh5co-blog-section, #footer, #fh5co-contact-section,

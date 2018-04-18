@@ -978,20 +978,14 @@ input[type="text"] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border: solid;
-    background-image: url("/images/blue-color-scheme-material-design-button.jpg");
-    border-color: #4EB1BA;
 }
 
 .navbar a:hover {
     border-color: #4EB1BA;
-    
 }
 
 .active {
-    background-color: red;
-    background-position: center;
-    background-size: cover;
+    border-color: red;
 }
 
 #copyright {

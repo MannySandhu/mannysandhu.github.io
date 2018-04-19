@@ -979,17 +979,17 @@ input[type="text"] {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-image: url("/images/transparent-button.png")
 }
 
 .navbar a:hover {
-    /*
     background-color: #4EB1BA;
-    */
-    background-image: url("/gifs/background%20GIF.gif");
+    border-color: black;
 }
 
 .active {
     background-color: #4EB1BA;-->
+    border-color: white;
 }
 
 #copyright {

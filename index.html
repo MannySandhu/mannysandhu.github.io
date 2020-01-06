@@ -48,6 +48,28 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+        
+        
+<!--
+        <script type="text/javascript">
+            
+            var xmlhttp = new XMLHttpRequest()
+            var api_key = "b1Vr57mClkLfisMUJUZ6F1cl0ImM1H0MkFPLaYMh"
+            var url = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
+            var image_url = ""
+            
+            xmlhttp.onreadystatechange = function(){
+                if(this.readyState == 4  && this.status == 200){
+                    var myArr = JSON.parse(this.responseText)
+                    image_url = myArr["url"]
+                }
+            }
+            
+            xmlhttp.open("GET", url, true)
+            xmlhttp.send()
+            
+        </script>
+-->
 
 	</head>
 	<body>
@@ -276,7 +298,8 @@
             
             <!--Experience Section-->
             <section class="colorlib-experience" data-section="experience">
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/bg-4.jpg);" data-stellar-background-ratio="0.5" data-section="experience">
+                
+			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(https://apod.nasa.gov/apod/image/1910/PIA20727PlutoNight1024c.jpg)" data-stellar-background-ratio="0.5" data-section="experience">
 				<div class="overlay"></div>
 				<div class="colorlib-narrow-content">
                     <div class="row">

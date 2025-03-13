@@ -217,210 +217,121 @@
             </div>
           </div>
         </section>
+        
 
-
-
-        <!-- ======================================
+<!-- ======================================
      EXPERIENCE SECTION
 ======================================= -->
-        <section id="experience" class="py-5">
-          <div class="container">
-            <div class="row mb-4">
-              <div class="col-md-6 offset-md-3 text-center">
-                <h2 class="colorlib-heading">Professional Experience</h2>
-                <span class="heading-meta">Software Engineer / Developer</span>
-              </div>
-            </div>
+<section id="experience" class="py-5">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-6 offset-md-3 text-center">
+        <h2 class="colorlib-heading">Recent Experience</h2>
+        <span class="heading-meta">Software Engineer / Developer</span>
+      </div>
+    </div>
 
-            <!-- Timeline with structured grid layout -->
-            <div class="timeline position-relative">
+    <!-- EXPERIENCE CARD -->
+    <div class="d-flex justify-content-center">
+      <div class="experience-card text-center p-4">
+        <!-- IBM Logo -->
+        <img src="images/ibm-logo.svg" alt="IBM Logo" class="experience-logo">
+        
+        <!-- Job Details -->
+        <h3 class="job-title">Software Engineer</h3>
+        <p class="company-name"><strong>IBM</strong> (2021 - 2024)</p>
+        <p class="experience-description">
+          Developed scalable backend services and cloud-based applications using Node.js, Java, and AWS.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <!-- IBM -->
-              <div class="timeline-entry row mb-5 d-flex align-items-center">
-                <div class="col-md-2 text-center">
-                  <div class="timeline-icon shadow-sm">
-                    🏢
-                  </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="card shadow-sm border-0 p-3">
-                    <h4 class="mb-1">
-                      Software Engineer - IBM
-                      <span class="text-muted" style="font-size: 0.9rem;">(2021 - 2024)</span>
-                    </h4>
-                    <p class="mb-0 text-muted">Developed scalable backend services and cloud-based applications using
-                      Node.js, Java and AWS.</p>
-                  </div>
-                </div>
-              </div>
+<!-- CUSTOM STYLES -->
+<style>
+  .experience-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px; /* Slightly smaller for a refined look */
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+  }
 
-            </div><!-- End timeline -->
+  .experience-logo {
+    width: 60px; /* Reduced size */
+    height: auto;
+    margin-bottom: 10px; /* Tightened spacing */
+  }
 
-          </div>
-        </section>
+  .job-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
 
-        <!-- Custom styling -->
-        <style>
-          .timeline {
-            border-left: 4px solid #333;
-            padding-left: 20px;
-          }
+  .company-name {
+    font-size: 1.1rem;
+    color: #666;
+  }
 
-          .timeline-entry {
-            position: relative;
-          }
-
-          .timeline-icon {
-            font-size: 1.8rem;
-            width: 50px;
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.3s ease-in-out;
-          }
-
-          .timeline-icon:hover {
-            transform: scale(1.1);
-          }
-
-          .card {
-            background: #fff;
-            transition: transform 0.2s ease-in-out;
-          }
-
-          .card:hover {
-            transform: translateY(-3px);
-          }
-        </style>
+  .experience-description {
+    font-size: 1rem;
+    color: #444;
+  }
+</style>
 
 
+<section id="qualifications" class="py-5">
+  <div class="container">
+    <div class="row mb-4 text-center">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="colorlib-heading">Academic Qualifications</h2>
+      </div>
+    </div>
 
-        <section id="qualifications" class="py-5">
-          <div class="container">
-            <div class="row mb-4">
-              <div class="col-md-6 offset-md-3 text-center">
-                <h2 class="colorlib-heading">Academic Qualifications</h2>
-                <span class="heading-meta">Project Portfolio</span>
-              </div>
-            </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <div class="qualification-box p-4 shadow-sm">
+          <img src="images/uoe-logo.png" alt="University of Edinburgh Logo" class="university-logo">
+          <p class="mt-3">
+            <strong>M.Sc. Informatics (Computer Science), 2018</strong><br>
+            University of Edinburgh
+          </p>
+        </div>
+      </div>
 
-            <!-- Bootstrap Accordion for Degrees -->
-            <div class="accordion" id="educationAccordion">
+      <div class="col-md-6 text-center">
+        <div class="qualification-box p-4 shadow-sm">
+          <img src="images/bru-logo.png" alt="Brunel University Logo" class="university-logo">
+          <p class="mt-3">
+            <strong>B.Sc. (Hons) Computer Science (AI), 2016</strong><br>
+            Brunel University
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-              <!-- Master's Degree -->
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
-                    Master's Degree in Computer Science (2017-2018)
-                  </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                  data-bs-parent="#educationAccordion">
-                  <div class="accordion-body">
-                    <div class="text-center">
-                      <img src="images/uoe-logo.png" alt="UoE Logo" class="university-logo">
-                      <p><strong>M.Sc. Computer Science</strong><br>University of Edinburgh</p>
-                    </div>
+<style>
+  .qualification-box {
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 220px;
+  }
 
-                    <!-- Master's Projects -->
-                    <div class="row g-4 mt-4">
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image" style="background-image: url('images/iot-2.png');">
-                          </div>
-                          <h5>IoT Indoor Localisation</h5>
-                          <p>BLE beacon-based positioning system.</p>
-                          <span class="tech-used">C++</span>
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image" style="background-image: url('images/robot.jpg');">
-                          </div>
-                          <h5>Robotics</h5>
-                          <p>Planetary rover for autonomous navigation.</p>
-                          <span class="tech-used">Python</span>
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image" style="background-image: url('images/mlp.png');"></div>
-                          <h5>Deep Neural Network</h5>
-                          <p>Music genre classification using deep learning.</p>
-                          <span class="tech-used">Python</span>
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image" style="background-image: url('images/msc-diss.jpg');">
-                          </div>
-                          <h5>Interest-based City Exploration</h5>
-                          <p>Algorithm for personalized city routes.</p>
-                          <span class="tech-used">Python</span>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Bachelor's Degree -->
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Bachelor's Degree in Computer Science (AI) (2012-2016)
-                  </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                  data-bs-parent="#educationAccordion">
-                  <div class="accordion-body">
-                    <div class="text-center">
-                      <img src="images/bru-logo.png" alt="Brunel Logo" class="university-logo">
-                      <p><strong>B.Sc. (Hons) Computer Science (AI)</strong><br>Brunel University</p>
-                    </div>
-
-                    <!-- Bachelor's Projects -->
-                    <div class="row g-4 mt-4">
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image" style="background-image: url('images/ann.jpg');"></div>
-                          <h5>Neuroevolution Dissertation</h5>
-                          <p>Training ANNs with evolutionary algorithms.</p>
-                          <span class="tech-used">Java</span>
-                        </div>
-                      </div>
-
-                      <div class="col-md-6">
-                        <div class="project-card">
-                          <div class="project-image small-image"
-                            style="background-image: url('images/noughts-and-crosses.png');"></div>
-                          <h5>Noughts & Crosses</h5>
-                          <p>Java/Swing-based AI for tic-tac-toe.</p>
-                          <span class="tech-used">Java</span>
-                          <div class="d-flex mt-2">
-                            <a href="apps/NoughtsAndCrossesByMandeepSandhu.jar" class="download-link">Download JAR</a>
-                            <a href="https://github.com/MannySandhu/Noughts-and-Crosses" class="repo-link">View Repo</a>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div><!-- End Accordion -->
-          </div>
-        </section>
+  .university-logo {
+    max-width: 150px; /* Ensures consistency */
+    max-height: 80px; /* Prevents oversized images */
+    object-fit: contain;
+  }
+</style>
 
 
         <section id="resume" class="py-5">

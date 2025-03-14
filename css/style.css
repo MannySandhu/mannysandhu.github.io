@@ -134,12 +134,18 @@ figure figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Pushes footer to bottom */
-  background: #fff; /* Ensures consistent background */
+  background: #f8f9fa; /* Very light gray */
+  border-right: 1px solid #e0e0e0; /* Subtle border */
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
   z-index: 1000; /* Ensures it stays above other elements */
 }
 
 #colorlib-main {
+  background: #FAFAFA; /* Light gray, almost white */
+  border-radius: 12px; /* Soft rounded edges */
+  padding: 30px; /* Keeps content readable */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+  border: 1px solid #E0E0E0; /* Light border for separation */
   margin-left: 300px; /* Offsets main content so it doesn't go under the sidebar */
   width: 40px; /* Adjusts width dynamically */
 }
@@ -161,6 +167,7 @@ figure figcaption {
   width: 150px;
   height: 150px;
   margin: 0 auto;
+  margin-top: 5px;
   margin-bottom: 30px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -2135,7 +2142,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .resume-box {
-  background: #fff;
+  background: #a44141;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Same as experience card */
   margin: auto;
@@ -2171,4 +2178,13 @@ body.offcanvas .colorlib-nav-toggle {
 .invert-icon {
   filter: invert(1);
 }
+
+#resume {
+  background: #ffffff !important; /* Ensures pure white background */
+  padding: 50px 0; /* Adds spacing for a clean look */
+  border-radius: 8px; /* Slightly rounded for consistency */
+}
+
+
+
 

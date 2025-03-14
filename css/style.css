@@ -125,18 +125,25 @@ figure figcaption {
 }
 
 #colorlib-aside {
-  padding-top: 3em;
-  padding-bottom: 40px;
-  float: left;
-  width: 300px;
-  position: fixed;
-  overflow-y: scroll;
-  z-index: 1001;
-  background: white;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  position: fixed; /* Keeps the sidebar fixed */
+  top: 0;
+  left: 0;
+  width: 300px; /* Matches your existing width */
+  height: 100vh; /* Full height */
+  overflow: hidden; /* Prevents scrolling */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes footer to bottom */
+  background: #fff; /* Ensures consistent background */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  z-index: 1000; /* Ensures it stays above other elements */
 }
+
+#colorlib-main {
+  margin-left: 300px; /* Offsets main content so it doesn't go under the sidebar */
+  width: calc(100% - 300px); /* Adjusts width dynamically */
+}
+
 
 @media screen and (max-width: 768px) {
   #colorlib-aside {
@@ -2117,3 +2124,36 @@ body.offcanvas .colorlib-nav-toggle {
 .resume-download:hover {
   background: #0056b3;
 }
+
+/* Common hover effect for all cards */
+.hover-effect {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-effect:hover {
+  transform: translateY(-6px);
+}
+
+.resume-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Same as experience card */
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.sidebar-footer {
+  padding-top: 10px;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.footer-social a {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-social a:hover {
+  transform: translateY(-2px);
+}
+
